@@ -1,53 +1,36 @@
 <script setup>
-import { usePage } from '@inertiajs/vue3';
-import { generateWhatappLink } from '../Utils/whatsappLinkGen';
-import { computed, ref } from 'vue';
+import { ref } from 'vue';
 
 const services = [
   {
-    icon: {
-        type: 'fas',
-        name: 'file-alt',
-    },
-    title: "Peer-Reviewed Articles",
-    description: "Submit high-quality research for fast and transparent peer review.",
-    link: '/submit-paper',
+    icon: { type: 'fas', name: 'tractor' },
+    title: "Fresh Farm Produce",
+    description: "We supply fresh vegetables, grains, and fruits directly from our farms to your doorstep.",
+    link: '/farm-produce',
   },
   {
-    icon: {
-        type: 'fas',
-        name: 'book',
-    },
-    title: "Open Access",
-    description: "Your research remains freely available to scholars worldwide.",
-    link: '/open-access',
+    icon: { type: 'fas', name: 'cow' },
+    title: "Healthy Livestock",
+    description: "Quality cows, goats, and poultry raised under healthy, sustainable farming practices.",
+    link: '/livestock',
   },
   {
-    icon: {
-        type: 'fas',
-        name: 'edit',
-    },
-    title: "Editorial Services",
-    description: "Benefit from professional editing and formatting before publication.",
-    link: '/editorial-services',
+    icon: { type: 'fas', name: 'seedling' },
+    title: "Seed & Fertilizer Supply",
+    description: "Get top-grade seeds and organic fertilizers to boost your farming yields.",
+    link: '/farm-inputs',
   },
   {
-    icon: {
-        type: 'fas',
-        name: 'comments',
-    },
-    title: "Author Support",
-    description: "Get help with your submission, formatting, and publishing journey.",
-    link: '/contact-support',
+    icon: { type: 'fas', name: 'shopping-basket' },
+    title: "Wholesale & Retail Sales",
+    description: "Whether you’re buying in bulk or small quantities, we’ve got you covered at fair prices.",
+    link: '/sales',
   },
   {
-    icon: {
-        type: 'fas',
-        name: 'globe',
-    },
-    title: "Global Visibility",
-    description: "Increase your research visibility with indexing and global reach.",
-    link: '/indexing',
+    icon: { type: 'fas', name: 'truck' },
+    title: "Nationwide Delivery",
+    description: "Fast and reliable delivery service to all parts of Nigeria for produce and livestock.",
+    link: '/delivery',
   },
 ];
 
@@ -67,10 +50,10 @@ const scrollRight = () => {
     <div class="max-w-4xl mx-auto text-center px-0 md:px-1">
       <h5 class="text-lg font-medium text-white" data-aos="fade-left">Our Services</h5>
       <h2 class="text-3xl font-bold text-gray-100 mt-2" data-aos="fade-right" data-aos-delay="100">
-        What We Offer to Researchers
+        What We Offer to Farmers & Customers
       </h2>
       <p class="mt-4 text-gray-50" data-aos="fade-up" data-aos-delay="200">
-        Fepo Journal supports your academic journey with a variety of services tailored to scholarly publishing.
+        Maibere Ventures Nigeria Ltd provides high-quality agricultural products and livestock, ensuring freshness, health, and customer satisfaction.
       </p>
 
       <!-- Horizontal scroll container with cards -->

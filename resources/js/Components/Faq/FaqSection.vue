@@ -2,27 +2,27 @@
 import { ref } from 'vue'
 import FaqItem from './FaqItem.vue'
 
-// FAQ Data for Federal Polytechnic Orogun Journal
+// FAQ Data for Maibere Ventures Nigeria Ltd
 const faqs = [
   {
-    question: "What is the Federal Polytechnic Orogun Journal about?",
-    answer: "The Journal of Academic Research & Innovation (JARI) is the official peer-reviewed academic journal of Federal Polytechnic Orogun, promoting research and innovation across various fields."
+    question: "What does Maibere Ventures Nigeria Ltd offer?",
+    answer: "We provide a trusted marketplace for fresh farm produce, livestock, and agricultural products directly from verified farmers."
   },
   {
-    question: "How often is the journal published?",
-    answer: "The journal is published biannually, typically in June and December each year."
+    question: "Who can sell on Maibere Ventures?",
+    answer: "Any verified farmer, livestock owner, or agricultural supplier can list their products on our platform."
   },
   {
-    question: "Who can submit articles to the journal?",
-    answer: "Researchers, academicians, postgraduate students, and industry professionals are welcome to submit original research articles, reviews, and case studies."
+    question: "How do I buy products?",
+    answer: "Browse our products, add them to your cart, and place an order. You can choose home delivery or arrange pickup with the seller."
   },
   {
-    question: "What is the submission process?",
-    answer: "Authors can submit their manuscripts via our online submission portal. All submissions undergo a peer-review process before publication."
+    question: "Do you offer nationwide delivery?",
+    answer: "Yes, we work with reliable logistics partners to deliver products across Nigeria."
   },
   {
-    question: "Is there a publication fee?",
-    answer: "No, there are no fees charged for submission or publication in the Federal Polytechnic Orogun Journal."
+    question: "Are prices negotiable?",
+    answer: "Some sellers allow price negotiation. You can contact the seller directly to discuss bulk or special pricing."
   }
 ]
 </script>
@@ -33,7 +33,7 @@ const faqs = [
       <!-- Section Title -->
       <div class="text-center mb-12">
         <h3 class="text-3xl font-bold text-gray-800">Frequently Asked Questions</h3>
-        <div class="w-20 h-1 bg-primary mx-auto my-3"></div>
+        <div class="w-20 h-1 bg-green-600 mx-auto my-3"></div>
       </div>
 
       <div class="flex flex-col lg:flex-row gap-12">
@@ -50,13 +50,18 @@ const faqs = [
         <!-- Call to Action -->
         <div class="lg:w-1/2 bg-gray-50 text-gray-700 p-8 rounded-lg shadow-md">
           <h4 class="text-2xl font-semibold mb-4">Need More Help?</h4>
-          <p class="mb-2">Contact our editorial team for any inquiries or assistance.</p>
-          <p class="font-bold text-lg mb-6">Email: <a href="mailto:journal@fporogun.edu.ng" class="text-primary underline">journal@fporogun.edu.ng</a></p>
+          <p class="mb-2">Our customer service team is here to assist with any questions.</p>
+          <p class="font-bold text-lg mb-6">
+            Email:
+            <a href="mailto:info@maibereventures.com" class="text-green-600 underline">
+              info@maibereventures.com
+            </a>
+          </p>
           <a
-            href="/submission-guidelines"
-            class="inline-block bg-primary hover:bg-primary-dark text-white py-2 px-6 rounded transition-transform transform hover:scale-105"
+            href="/contact"
+            class="inline-block bg-green-600 hover:bg-green-700 text-white py-2 px-6 rounded transition-transform transform hover:scale-105"
           >
-            View Submission Guidelines
+            Contact Us
           </a>
         </div>
       </div>

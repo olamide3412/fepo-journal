@@ -18,3 +18,7 @@ Route::inertia('/login','Auth/Login')->name('login');
 Route::inertia('/articles','Home')->name('articles');
 Route::inertia('/submit','Home')->name('submit');
 Route::inertia('/contact','Home')->name('contact');
+
+Route::inertia('/products','Home')->name('products');
+Route::inertia('/livestock','Home')->name('livestock');
+Route::inertia('/shop','Home')->name('shop');

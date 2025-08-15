@@ -1,8 +1,9 @@
 <script setup>
 import { Link } from '@inertiajs/vue3';
-import HeroImage from '../../../images/logo.png'; // Placeholder logo
-import JournalCover from '../../../images/jcover-nobg.png'
-import LogoFull from '../../../images/logo-full.png'; // Placeholder full logo
+import HeroImage from '../../../images/farm-logo.png'; // New farm logo
+import FarmCover from '../../../images/farm-cover.png'; // Replace with farming image
+import LogoFull from '../../../images/logo-full.png';
+import ff from '../../../images/farm-cover.png'
 </script>
 
 <template>
@@ -10,22 +11,22 @@ import LogoFull from '../../../images/logo-full.png'; // Placeholder full logo
   <section class="block md:hidden px-4 py-6">
     <!-- Image First -->
     <div data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000" class="mb-6">
-      <img :src="JournalCover" alt="Journal Cover" class="w-full custom-bounce rounded-lg" />
+      <img :src="FarmCover" alt="Farm Products" class="w-full custom-bounce rounded-lg" />
     </div>
     <!-- Text Below -->
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="space-y-4">
       <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100 text-center">
-        Federal Polytechnic Orogun Journal of Research and Innovation
+        Fresh Farm Produce & Livestock Marketplace
       </h1>
       <p class="text-base text-gray-600 dark:text-gray-300 text-center">
-        Explore groundbreaking academic papers and innovative research by scholars and professionals.
+        Buy and sell fresh farm products, livestock, and agricultural stock directly from trusted farmers.
       </p>
       <div class="flex flex-col space-y-3 px-5 text-center">
-        <Link href="/submit-paper" class="bg-primary text-white px-6 py-3 rounded-full shadow hover:bg-primary-dark transition">
-          Submit a Paper
+        <Link href="/products" class="bg-green-600 text-white px-6 py-3 rounded-full shadow hover:bg-green-700 transition">
+          Browse Products
         </Link>
-        <Link href="/about-journal" class="border border-primary text-primary px-6 py-3 rounded-full hover:bg-primary hover:text-white transition dark:bg-gray-300">
-          About the Journal
+        <Link href="/sell" class="border border-green-600 text-green-600 px-6 py-3 rounded-full hover:bg-green-600 hover:text-white transition dark:bg-gray-300">
+          Sell Your Products
         </Link>
       </div>
     </div>
@@ -36,24 +37,24 @@ import LogoFull from '../../../images/logo-full.png'; // Placeholder full logo
     <!-- Text Left -->
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="w-1/2 space-y-6 other-element">
       <h1 class="text-5xl font-bold text-gray-900 dark:text-gray-100 leading-tight">
-        Federal Polytechnic Orogun Journal of Research and Innovation
+        Your One-Stop Farming & Livestock Marketplace
       </h1>
       <p class="text-lg text-gray-600 dark:text-gray-300">
-        A platform for academic excellence, innovation, and interdisciplinary research.
+        Connecting farmers and buyers for fresh produce, livestock, and agricultural goods at the best prices.
       </p>
       <div class="flex space-x-4">
-        <Link href="/submit-paper" class="bg-primary text-white px-6 py-3 rounded-lg shadow hover:bg-primary-dark transition">
-          Submit a Paper
+        <Link href="/products" class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">
+          Browse Products
         </Link>
-        <Link href="/about-journal" class="border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary hover:text-white transition dark:bg-gray-300">
-          About the Journal
+        <Link href="/sell" class="border border-green-600 text-green-600 px-6 py-3 rounded-lg hover:bg-green-600 hover:text-white transition dark:bg-gray-300">
+          Sell Your Products
         </Link>
       </div>
     </div>
 
     <!-- Image Right -->
     <div data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000" data-aos-anchor=".other-element" class="w-1/2 flex justify-center">
-      <img :src="JournalCover" alt="Journal Cover" class="w-full max-w-md custom-bounce rounded-lg" />
+      <img :src="FarmCover" alt="Farm Products" class="w-full max-w-md custom-bounce rounded-lg" />
     </div>
   </section>
 </template>

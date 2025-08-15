@@ -1,5 +1,5 @@
 <script setup>
-import JournalCover from '../../../images/journal-cover.jpg'
+import FarmCover from '../../../images/farm-cover.png' // Replace with actual farming image
 </script>
 
 <template>
@@ -13,8 +13,8 @@ import JournalCover from '../../../images/journal-cover.jpg'
         data-aos-delay="200"
       >
         <img
-          :src="JournalCover"
-          alt="Federal Polytechnic Orogun Journal"
+          :src="FarmCover"
+          alt="Maibere Ventures Nigeria Ltd - Farming & Livestock"
           width="1024"
           height="879"
           class="w-full h-auto rounded-lg shadow-md"
@@ -28,30 +28,35 @@ import JournalCover from '../../../images/journal-cover.jpg'
         data-aos-duration="800"
         data-aos-delay="200"
       >
-        <h5 class="text-primary font-semibold text-sm uppercase mb-2">
-          Welcome to JARI
+        <h5 class="text-green-600 font-semibold text-sm uppercase mb-2">
+          Welcome to Maibere Ventures Nigeria Ltd
         </h5>
 
         <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
-          Journal of Academic Research & Innovation <br />Federal Polytechnic Orogun
+          Fresh Farm Produce, Livestock & Agricultural Stock at Your Fingertips
         </h2>
 
         <div class="space-y-4 text-gray-600 mb-8">
           <p>
-            JARI is the official academic journal of Federal Polytechnic Orogun, providing a platform for innovative research and scholarly discussions across disciplines.
+            Maibere Ventures Nigeria Ltd connects farmers and buyers, offering a trusted
+            platform to buy and sell fresh farm produce, quality livestock, and essential
+            agricultural products.
           </p>
           <p>
-            We encourage researchers, academicians, and students to contribute high-quality research that advances knowledge and fosters academic excellence.
+            We partner with verified farmers to ensure you get the freshest products at
+            fair prices while supporting local agriculture.
           </p>
-          <p class="font-bold">Submit your research and join our community of scholars.</p>
+          <p class="font-bold">
+            Join our marketplace and experience the best of farming, delivered to you.
+          </p>
         </div>
 
         <!-- CTA Button -->
         <a
-          href="/submission-guidelines"
-          class="inline-block bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded transition-transform duration-300 transform hover:scale-105"
+          href="/products"
+          class="inline-block bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded transition-transform duration-300 transform hover:scale-105"
         >
-          Learn About Submission
+          Browse Products
         </a>
       </div>
     </div>
