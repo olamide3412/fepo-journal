@@ -1,5 +1,5 @@
 <script setup>
-import Logo from '../../images/farm-logo.png' // Replace with Maibere Ventures logo
+import Logo from '../../images/logo.png'
 </script>
 
 <template>
@@ -9,26 +9,22 @@ import Logo from '../../images/farm-logo.png' // Replace with Maibere Ventures l
 
     <div class="relative container mx-auto px-4 py-12">
       <div class="flex flex-col md:flex-row gap-10">
-
-        <!-- Left Column: Logo + Company Description -->
+        <!-- Left Column: Logo + Journal Description -->
         <div class="md:w-1/3" data-aos="fade-up" data-aos-delay="100">
-          <img :src="Logo" alt="Maibere Ventures Logo" class="h-16 mb-4" />
+          <img :src="Logo" alt="Federal Polytechnic Orogun Logo" class="h-16 mb-4" />
           <p class="text-sm leading-relaxed">
-            Maibere Ventures Nigeria Ltd is committed to delivering fresh farm produce, quality livestock,
-            and agricultural solutions to customers across Nigeria. Our mission is to connect farms directly
-            to your table while supporting local farmers.
+            The Journal of Academic Research & Innovation (JARI), Federal Polytechnic Orogun, provides a platform for scholars to share innovative research across disciplines, promoting academic excellence and knowledge dissemination.
           </p>
         </div>
 
         <!-- Middle Column: Navigation -->
-        <nav class="md:w-1/3" data-aos="fade-up" data-aos-delay="200" aria-label="Site Links">
-          <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+        <nav class="md:w-1/3" data-aos="fade-up" data-aos-delay="200" aria-label="Journal Links">
+          <h4 class="font-semibold text-lg mb-4">Navigation</h4>
           <ul class="space-y-2 text-sm">
             <li><a href="#" class="hover:underline">Home</a></li>
-            <li><a href="#" class="hover:underline">About Us</a></li>
-            <li><a href="#" class="hover:underline">Farm Produce</a></li>
-            <li><a href="#" class="hover:underline">Livestock</a></li>
-            <li><a href="#" class="hover:underline">Shop</a></li>
+            <li><a href="#" class="hover:underline">About the Journal</a></li>
+            <li><a href="#" class="hover:underline">Submission Guidelines</a></li>
+            <li><a href="#" class="hover:underline">Editorial Board</a></li>
             <li><a href="#" class="hover:underline">Contact Us</a></li>
           </ul>
         </nav>
@@ -38,15 +34,15 @@ import Logo from '../../images/farm-logo.png' // Replace with Maibere Ventures l
           <h4 class="font-semibold text-lg mb-4">Contact</h4>
           <div class="flex items-start">
             <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="mr-2 text-primary" />
-            <span>No. 25 Farm Road, Kano, Nigeria</span>
+            <span>Federal Polytechnic Orogun, Delta State, Nigeria</span>
           </div>
           <div class="flex items-center">
             <font-awesome-icon :icon="['fas', 'phone']" class="mr-2 text-primary" />
-            <span>+234 803 3351 418</span>
+            <span>+234 812 345 6789</span>
           </div>
           <div class="flex items-center">
             <font-awesome-icon :icon="['fas', 'envelope']" class="mr-2 text-primary" />
-            <a href="mailto:info@maibereventures.com" class="hover:underline">info@maibereventures.com</a>
+            <a href="mailto:journal@fporogun.edu.ng" class="hover:underline">journal@fporogun.edu.ng</a>
           </div>
         </address>
       </div>
@@ -57,7 +53,7 @@ import Logo from '../../images/farm-logo.png' // Replace with Maibere Ventures l
       <!-- Footer Note -->
       <div class="flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 dark:text-gray-400">
         <div>
-          © {{ new Date().getFullYear() }} Maibere Ventures Nigeria Ltd. All rights reserved.
+          © {{ new Date().getFullYear() }} Federal Polytechnic Orogun – Journal of Academic Research & Innovation. All rights reserved.
         </div>
         <div class="flex space-x-4 mt-4 md:mt-0">
           <a href="#" class="hover:underline">Privacy Policy</a>
